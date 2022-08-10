@@ -19,7 +19,7 @@ contract NotesContract {
         public
     {
         notes[noteCount] = Note(noteCount, _title, _description);
-        emit NoteCreated(noteCount, _title, _description);
+        emit NoteCreated (noteCount, _title, _description);
         noteCount++;
     }
 
